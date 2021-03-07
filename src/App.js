@@ -4,6 +4,9 @@ import Header from './statics/inc/Header';
 import Home from './statics/Home';
 import Les from './statics/Les';
 import Product from './statics/Product';
+import Colors from './statics/Colors';
+import About from './statics/About';
+import Maten from './statics/Maten';
 
 const App = () =>{
 
@@ -11,12 +14,14 @@ const App = () =>{
     <div className="App" id="root">
         <Fragment>
         <Header />
-        <div className='page--body'>
+        <div>
           <Switch>
             <Route exact path={"/"} component={Home} />
-            <Route path={"/index"} component={Home} />
             <Route path={"/lessen"} component={Les} />
             <Route path={"/producten"} component={Product} />
+            <Route path={"/kleurenoverzicht"} component={Colors} />
+            <Route path={"/about"} component={About} />
+            <Route path={"/maten"} component={Maten} />
           </Switch>
         </div>
         </Fragment>

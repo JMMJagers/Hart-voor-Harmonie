@@ -22,10 +22,20 @@
   position: relative;
 }
 
+.picture{
+  text-align: center;
+}
+.description{
+  margin: 0px;
+}
 img.product_img{
-  max-height: 190px;
+  max-height: 250px;
 }
 
 .prev-price{
   text-decoration: line-through;
+}
+
+table{
+  width:100%;
 }

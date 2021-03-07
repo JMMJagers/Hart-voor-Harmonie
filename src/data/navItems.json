@@ -1,16 +1,20 @@
 {
   "navItems":[
     {
-      "url": "index",
+      "url": "/",
       "title": "Hart voor Harmonie"
     },
     {
-      "url": "lessen",
-      "title": "Lessen"
+      "url": "/lessen",
+      "title": "Instructie & Training"
     },
     {
-      "url": "producten",
-      "title": "Producten"
+      "url": "/producten",
+      "title": "Touwhalsters"
+    },
+    {
+      "url": "/about",
+      "title": "Over Hart voor Harmonie"
     }
   ]
 }

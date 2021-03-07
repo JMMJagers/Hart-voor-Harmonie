@@ -1,7 +1,3 @@
 @import "sections/nav.css";
 @import "sections/hero.css";
 @import "sections/content.css";
-@import "vendors/bootstrap/bootstrap.css";
-@import "vendors/bootstrap/bootstrap-grid.css";
-@import "vendors/bootstrap/bootstrap-reboot.css";
-@import "vendors/bootstrap/bootstrap-utilities.css";

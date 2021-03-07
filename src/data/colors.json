@@ -1,0 +1,140 @@
+{
+  "colors":[
+    {
+      "name": "Robijn Rood",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&type=webp&file=catalog/product/6/m/6mm-rubyred.jpg"
+    },
+    {
+      "name": "Framboos",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/6/363097177_1.jpg"
+    },
+    {
+      "name": "Rood",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/7/272884661_1.jpg"
+    },
+    {
+      "name": "Neon Oranje",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/7/272420775_1.jpg"
+    },
+    {
+      "name": "Honing Geel",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/7/274230449_1.jpg"
+    },
+    {
+      "name": "Pastelgeel",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/5/2/527681972.jpg"
+    },
+    {
+      "name": "Kanarie geel",
+      "img":"https://www.paracord.nl/media/fit?width=2600&height=2600&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/1/315058759_1.jpg"
+    },
+    {
+      "name": "Mint",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/4/348825939_1.jpg"
+    },
+    {
+      "name": "Zeegroen",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/7/0/704747900.jpg"
+    },
+    {
+      "name": "Pistache",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/5/353346565_1.jpg"
+    },
+    {
+      "name": "Appelgroen",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/7/272884659_1.jpg"
+    },
+    {
+      "name": "Grasgroen",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/4/8/482025581.jpg"
+    },
+    {
+      "name": "Legergroen",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/4/249051027_1.jpg"
+    },
+    {
+      "name": "Donkergroen",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/7/272885597_1.jpg"
+    },
+    {
+      "name": "Aqua",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/7/5/758436190.jpg"
+    },
+    {
+      "name": "Babyblauw",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/1/318326139_1.jpg"
+    },
+    {
+      "name": "Zeeblauw",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/1/310976195_1.jpg"
+    },
+    {
+      "name": "Koningsblauw",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/4/249044891_1.jpg"
+    },
+    {
+      "name": "Donkerblauw",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/1/315087899_1.jpg"
+    },
+    {
+      "name": "Gifpaars",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/4/249046845_1.jpg"
+    },
+    {
+      "name": "Lila",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/4/345462769_1.jpg"
+    },
+    {
+      "name": "Neon Roze",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/7/272884647_1.jpg"
+    },
+    {
+      "name": "Oudroze",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/4/8/481926188.jpg"
+    },
+    {
+      "name": "Fuchsia",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/7/272457825_1.jpg"
+    },
+    {
+      "name": "Roodbruin",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/4/1/418221464_1.jpg"
+    },
+    {
+      "name": "Zwart",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/4/249051935_1.jpg"
+    },
+    {
+      "name": "Wit",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/4/249053291_1.jpg"
+    },
+    {
+      "name": "Goud",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/7/2/721406575.jpg"
+    },
+    {
+      "name": "Beige",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/6/8/687970057.jpg"
+    },
+    {
+      "name": "Goudbruin",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/4/249049055_1.jpg"
+    },
+    {
+      "name": "Karamel",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/5/356530327_1.jpg"
+    },
+    {
+      "name": "Bruin",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/2/5/254337305_1.jpg"
+    },
+    {
+      "name": "Donkergrijs",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/3/4/343425645_1.jpg"
+    },
+    {
+      "name": "Zilver",
+      "img":"https://www.paracord.nl/media/fit?width=2800&height=2800&background=255,255,255&quality=80&type=jpeg&file=catalog/product/4/8/484811066.jpg"
+    }
+  ]
+}
