@@ -12,12 +12,12 @@ const App = () =>{
         <Fragment>
         <Header />
         <div className='page--body'>
-
-          <Route exact path={"/"} component={Home} />
-          <Route exact path={"/index"} component={Home} />
-          <Route exact path={"/lessen"} component={Les} />
-          <Route exact path={"/producten"} component={Product} />
-
+          <Switch>
+            <Route exact path={"/"} component={Home} />
+            <Route exact path={"/index"} component={Home} />
+            <Route exact path={"/lessen"} component={Les} />
+            <Route exact path={"/producten"} component={Product} />
+          </Switch>
         </div>
         </Fragment>
     </div>
