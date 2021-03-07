@@ -13,10 +13,10 @@ const App = () =>{
         <Header />
         <div className='page--body'>
           <Switch>
-            <Route exact path={"/index"} component={Home} />
-            <Route exact path={"/lessen"} component={Les} />
-            <Route exact path={"/producten"} component={Product} />
             <Route exact path={"/"} component={Home} />
+            <Route path={"/index"} component={Home} />
+            <Route path={"/lessen"} component={Les} />
+            <Route path={"/producten"} component={Product} />
           </Switch>
         </div>
         </Fragment>
