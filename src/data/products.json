@@ -1,0 +1,58 @@
+{
+  "products":[
+    {
+      "name": "Basic",
+      "price": "€ 9,50",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/e371f2d98195e1156eae56ae8b81b037ad5b5295.jpg"
+    },
+    {
+      "name": "Vissengraat",
+      "price": "€ 12,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/0aaf62a20b217ebbc692f7b0b5e234d0e4cb86e8.jpg"
+    },
+    {
+      "name": "Wrapped",
+      "price": "€ 11,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/204ed2e0a90621c4df628bfda27eda744d02e6e2.jpg"
+    },
+    {
+      "name": "Gevlochten",
+      "price": "€ 13,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/836ddd0079dbbb24a6bbaf4e1277a00c6201e4de.jpg"
+    },
+    {
+      "name": "Zig-zag",
+      "price": "€ 15,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/8efb6f72fc0743e8662bff8f061aaae17d590132.jpg"
+    },
+    {
+      "name": "Regenboog soft",
+      "price": "€ 13,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/553bc05a943f54f3738ad74ef7bf64328d5309e3.jpg"
+    },
+    {
+      "name": "Voorraaddeal Vissengraat",
+      "price": "€ 11,50",
+      "prevprice": "€ 12,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/906de4c7b3fb97c134fbf7836ef8b18f1e3b2fc7.jpg"
+    },
+    {
+      "name": "Voorraaddeal Wrapped",
+      "price": "€ 10,50",
+      "prevprice": "€ 11,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/deda5f146cb7c0256a2fab8752c5c381035c2905.jpg"
+    },
+    {
+      "name": "Voorraaddeal Gevlochten",
+      "price": "€ 12,50",
+      "prevprice": "€ 13,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/aa3b7af1346dc949a5c408adb276bb5932bbcb67.jpg"
+    },
+    {
+      "name": "Voorraaddeal Zig-zag",
+      "price": "€ 14,50",
+      "prevprice": "€ 15,95",
+      "img":"https://cdn.myonlinestore.eu/d57afedf-d1af-4651-a37b-18d32410133c/image/cache/full/527bb819bd3fcf6687a72d9c7066343ebd96130f.jpg"
+    }
+  ]
+}

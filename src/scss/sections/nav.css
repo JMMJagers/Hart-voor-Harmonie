@@ -16,12 +16,7 @@
 .nav-item{
   margin: 0px 15px;
 }
-.nav-item.active{
-  font-weight: bolder;
-  border: 2px solid #b86200;
-  border-radius: 10px;
-}
 
 .nav-item .nav-link{
-  color: #b86200;
+  color: #000;
 }

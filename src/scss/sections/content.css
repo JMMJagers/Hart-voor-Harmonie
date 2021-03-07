@@ -20,3 +20,11 @@
 .middle__section .hero__img{
   position: relative;
 }
+
+img.product_img{
+  max-height: 190px;
+}
+
+.prev-price{
+  text-decoration: line-through;
+}
