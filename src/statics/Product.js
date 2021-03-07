@@ -26,21 +26,20 @@ const Product = () => {
           <img alt="" className="hero__img" src={heroImg}></img>
         </div>
 
-        <div className="content__section col-8 offset-2">
+        <div className="content__section col-8 offset-2 text-center">
           <div>
-            <h1 className='text-center'>{title}</h1>
-            <p className='text-center'>{p1}</p>
-            <p className='text-center'>{p2}</p>
-            <p className='text-center'>{p3}</p>
-            <p className='text-center'>{p4}</p>
+            <h1>{title}</h1>
+            <p>{p1}</p>
+            <p>{p2}</p>
+            <p>{p3}</p>
+            <p>{p4}</p>
           </div>
+        </div>
 
-          <div className="card-group">
-            {products.products.map((item) =>
-              <ProductCard name={item.name} price={item.price} img={item.img} prevprice={item.prevprice}/>
-            )}
-          </div>
-
+        <div className="card-group mx-1">
+          {products.products.map((item) =>
+            <ProductCard name={item.name} price={item.price} img={item.img} prevprice={item.prevprice}/>
+          )}
         </div>
       </div>
 

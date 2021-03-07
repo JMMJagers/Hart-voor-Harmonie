@@ -1,5 +1,6 @@
 .content__section{
   margin-top: 30px;
+  word-wrap: break-word;
 }
 
 .content__section h1{
