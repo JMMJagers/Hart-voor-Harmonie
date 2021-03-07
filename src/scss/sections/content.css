@@ -1,0 +1,26 @@
+.content__section{
+  margin-top: 30px;
+}
+
+.content__section h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.content__section h2{
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+h1,h2,h3,p{
+  font-family: cursive;
+}
+
+.middle__section{
+  height: 750px;
+}
+.middle__section .hero__img{
+  position: relative;
+}

@@ -1,0 +1,16 @@
+{
+  "navItems":[
+    {
+      "url": "index",
+      "title": "Hart voor Harmonie"
+    },
+    {
+      "url": "lessen",
+      "title": "Lessen"
+    },
+    {
+      "url": "producten",
+      "title": "Producten"
+    }
+  ]
+}

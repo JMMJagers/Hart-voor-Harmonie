@@ -1,0 +1,27 @@
+.header-container{
+  background-color: white;
+}
+
+.logo{
+  display: inline-block;
+  width: 140px;
+  height: 100px;
+  background-image: url('https://hartvoorharmonie.files.wordpress.com/2020/10/logolang1.png?w=300');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0;
+  margin-right: 50px;
+}
+
+.nav-item{
+  margin: 0px 15px;
+}
+.nav-item.active{
+  font-weight: bolder;
+  border: 2px solid #b86200;
+  border-radius: 10px;
+}
+
+.nav-item .nav-link{
+  color: #b86200;
+}
