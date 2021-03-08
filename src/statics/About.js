@@ -12,7 +12,7 @@ const About = () => {
         </div>
 
         <div className="content__section">
-          <div className="col-8 offset-2 text-center">
+          <div className="col-12 col-md-8 offset-md-2 text-center">
             <h1>{content.about[0].title}</h1>
 
             <Fragment>
@@ -29,7 +29,7 @@ const About = () => {
         </div>
 
         <div className="content__section">
-          <div className="col-8 offset-2 text-center">
+          <div className="col-12 col-md-8 offset-md-2 text-center">
 
             <Fragment>
               { content.about[0].paragraphs2.map((item) =>

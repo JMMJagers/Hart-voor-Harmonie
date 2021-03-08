@@ -21,7 +21,7 @@ const Maten = () => {
             </Fragment>
 
             <Fragment>
-              <div className="col-8 offset-2 pb-4">
+              <div className="col-12 col-md-8 offset-md-2 pb-4">
                 <table border="1" cellspacing="2" cellpadding="2">
                   <thead>
                     <tr>

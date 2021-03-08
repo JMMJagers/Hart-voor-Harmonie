@@ -1,0 +1,17 @@
+.description{
+  margin: 0px;
+}
+
+img {
+  &.product_img {
+    max-height: 250px;
+  }
+}
+
+.prev-price {
+  text-decoration: line-through;
+}
+
+table {
+  width:100%;
+}

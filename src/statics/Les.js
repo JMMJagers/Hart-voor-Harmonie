@@ -11,7 +11,7 @@ const Les = () => {
           <img alt="" className="hero__img" src={content.lessen[0].hero}></img>
         </div>
 
-        <div className="content__section col-8 offset-2 text-center">
+        <div className="content__section col-12 col-md-8 offset-md-2 text-center">
           <h1>{content.lessen[0].title}</h1>
           <Fragment>
             { content.lessen[0].paragraphs1.map((item) =>
@@ -32,7 +32,7 @@ const Les = () => {
           <img alt="" src={content.lessen[0].img}></img>
         </div>
 
-        <div className="content__section col-8 offset-2 text-center">
+        <div className="content__section col-12 col-md-8 offset-md-2 text-center">
           <h2>{content.lessen[0].title3}</h2>
           <Fragment>
             { content.lessen[0].paragraphs3.map((item) =>

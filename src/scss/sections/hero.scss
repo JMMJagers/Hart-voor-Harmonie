@@ -12,9 +12,8 @@
   position: relative;
 }
 
-.hero__img.object-bottom{
-  object-position: bottom;
-}
-.hero__img.object-top{
-  object-position: top;
+.hero__img {
+  &.object-bottom{
+    object-position: bottom;
+  }
 }

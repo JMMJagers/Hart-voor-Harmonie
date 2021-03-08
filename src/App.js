@@ -11,7 +11,7 @@ import Maten from './statics/Maten';
 const App = () =>{
 
   return(
-    <div className="App" id="root">
+    <div id="root">
         <Fragment>
         <Header />
         <div>

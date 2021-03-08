@@ -13,7 +13,7 @@ const Product = () => {
         </div>
 
         <div className="content__section">
-          <div className="col-8 offset-2 text-center">
+          <div className="col-12 col-md-8 offset-md-2 text-center">
             <h1>{content.producten[0].title}</h1>
 
             <Fragment>
