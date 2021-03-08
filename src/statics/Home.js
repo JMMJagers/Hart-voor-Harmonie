@@ -11,7 +11,7 @@ const Home = () => {
           <img alt="" className="hero__img" src={content.home[0].hero}></img>
         </div>
 
-        <div className="content__section mt-4">
+        <div className="content__section">
           <div className="col-12 col-md-8 offset-md-2 text-center">
             <h1>{content.home[0].title}</h1>
 

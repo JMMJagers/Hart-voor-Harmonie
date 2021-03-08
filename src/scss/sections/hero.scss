@@ -11,6 +11,10 @@
   }
 }
 
+img {
+  margin-bottom: 15px;
+}
+
 .hero__section{
   height: auto;
   width: 100%;
@@ -28,6 +32,9 @@
     img {
       width: 100%;
       height: auto;
+      @include media-breakpoint-up(md) {
+        width: 50%;
+      }
     }
   }
 }
