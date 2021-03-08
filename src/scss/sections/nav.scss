@@ -23,21 +23,6 @@
   }
 }
 
-.dropdown {
-  .dropdown-menu{
-    display: none;
-  }
-}
-
-.dropdown {
-  &.open {
-    .dropdown-menu {
-      display: block;
-      position: absolute;
-    }
-  }
-}
-
 .header-container {
   .icon-bar{
     width: 28px;
