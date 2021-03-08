@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="picture">
+        <div className="picture text-center mb-3">
           <img alt="" src={content.about[0].img}></img>
         </div>
 
@@ -40,7 +40,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="picture">
+        <div className="picture text-center">
           <img alt="" src={content.about[0].img2}></img>
         </div>
 

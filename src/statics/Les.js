@@ -28,7 +28,7 @@ const Les = () => {
 
         </div>
 
-        <div className="picture">
+        <div className="picture text-center">
           <img alt="" src={content.lessen[0].img}></img>
         </div>
 

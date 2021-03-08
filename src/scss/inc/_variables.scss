@@ -1,0 +1,96 @@
+
+// --------- colours ---------
+$primary_color:    #00577A!default;
+$secondary_color:  #F9423A!default;
+
+$gray_light:       #EEECE9!default;
+$caramel_color:    #FED196!default;
+$green_color:      #559845!default;
+$red_color:        #F9423A!default;
+
+
+$blue-lagoon:#00577A!default;
+$caramel:    #FED196!default;
+$red:        #FF3C34!default;
+
+//Default colours
+$gray-base:  #BBB!default;
+$gray-light: #EEECE9!default;
+$white:      #fff!default;
+$black:      #111!default;
+
+// Link
+$link-color: $primary_color;
+
+// Typography
+$font-size-base:     1rem !default;
+$font-size-small:    0.875rem !default;
+$font-size-base-big: 1.125rem!default;
+
+$font-display: swap;
+$source-sans-font-path:       '../vendors/webfonts/source-sans-pro-v13-latin';
+$recoleta-light-font-path:    '../vendors/webfonts/recoleta-light';
+$recoleta-regular-font-path:  '../vendors/webfonts/recoleta-regular';
+$recoleta-medium-font-path:   '../vendors/webfonts/recoleta-medium';
+$recoleta-semibold-font-path: '../vendors/webfonts/recoleta-semibold';
+$recoleta-bold-font-path:     '../vendors/webfonts/recoleta-blold';
+$recoleta-black-font-path:    '../vendors/webfonts/recoleta-black';
+$GoldenYouthScript-path:      '../vendors/webfonts/GoldenYouthScript';
+
+$grutto-base-colors: (
+  "primary":    $primary_color,
+  "secondary":  $secondary_color,
+  "gray_light": $gray_light,
+  "caramel":    $caramel_color,
+  "green":      $green_color,
+  "red":        $red_color,
+  "gray-base":  $gray-base,
+  "gray-light": $gray-light,
+  "white":      $white,
+  "black":      $black,
+);
+
+
+// Typography
+$font-size-base:     1rem !default;
+$font-size-small:    0.875rem !default;
+$font-size-base-big: 1.125rem!default;
+
+$font-display: swap;
+$source-sans-font-path:       '../vendors/webfonts/source-sans-pro-v13-latin';
+$recoleta-light-font-path:    '../vendors/webfonts/recoleta-light';
+$recoleta-regular-font-path:  '../vendors/webfonts/recoleta-regular';
+$recoleta-medium-font-path:   '../vendors/webfonts/recoleta-medium';
+$recoleta-semibold-font-path: '../vendors/webfonts/recoleta-semibold';
+$recoleta-bold-font-path:     '../vendors/webfonts/recoleta-blold';
+$recoleta-black-font-path:    '../vendors/webfonts/recoleta-black';
+
+
+//== Media queries breakpoints
+$media-breakpoint-small-devices: 321px!default; //Bigger than iPhone 5
+
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+) !default;
+
+// Grid containers
+// Define the maximum width of `.container` for different screen sizes.
+$container-max-widths: (
+  xs: 375px,
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1180px,
+  xxl: 1440px
+) !default;
+
+// Grid columns
+// Set the number of columns and specify the width of the gutters.
+$grid-columns: 12 !default;
+$grid-gutter-width: 8px !default;
