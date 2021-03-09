@@ -10,11 +10,11 @@ const Header = () => {
 
   return (
 
-      <header className="header-container">
+      <header className="header-container sticky-header">
         <div className="col-12 col-md-8 offset-md-2">
           <div className="site-branding-container">
             <div className="site-branding">
-              <nav className="navbar navbar-expand-lg sticky-top">
+              <nav className="navbar navbar-expand-lg">
                 <a className="logo" href="/"></a>
                 <button className="custom-toggler navbar-toggler" type="button" aria-expanded={!isNavCollapsed ? true : false} onClick={handleNavCollapse}>
                   <span className="icon-bar"></span>

@@ -1,8 +1,15 @@
-.header-container{
+.header-container {
   background-color: white;
+  &.sticky-header {
+    @include media-breakpoint-up(lg) {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+  }
 }
 
-.logo{
+.logo {
   display: inline-block;
   width: 140px;
   height: 100px;
@@ -13,7 +20,7 @@
   margin-right: 50px;
 }
 
-.nav-item{
+.nav-item {
   margin: 0px 15px;
 }
 
@@ -24,7 +31,7 @@
 }
 
 .header-container {
-  .icon-bar{
+  .icon-bar {
     width: 28px;
     height: 1px;
     background-color: #000;
