@@ -15,7 +15,9 @@ const Header = () => {
           <div className="site-branding-container">
             <div className="site-branding">
               <nav className="navbar navbar-expand-lg">
-                <a className="logo" href="/"></a>
+                <a className="logo" href="/">
+                  <img src="/images/logokleinvector.svg" />
+                </a>
                 <button className="custom-toggler navbar-toggler" type="button" aria-expanded={!isNavCollapsed ? true : false} onClick={handleNavCollapse}>
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>

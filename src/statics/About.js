@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import content from '../data/content.json';
+import parse from 'html-react-parser';
 
 const About = () => {
 
@@ -15,11 +16,7 @@ const About = () => {
           <div className="col-12 col-md-8 offset-md-2 text-center">
             <h1>{content.about[0].title}</h1>
 
-            <Fragment>
-              { content.about[0].paragraphs.map((item) =>
-                  <p>{item.p}</p>
-              )}
-            </Fragment>
+            {parse(content.about[0].content)}
 
           </div>
         </div>
@@ -31,11 +28,7 @@ const About = () => {
         <div className="content__section">
           <div className="col-12 col-md-8 offset-md-2 text-center">
 
-            <Fragment>
-              { content.about[0].paragraphs2.map((item) =>
-                  <p>{item.p}</p>
-              )}
-            </Fragment>
+          {parse(content.about[0].content2)}
 
           </div>
         </div>

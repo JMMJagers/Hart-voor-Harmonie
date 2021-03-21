@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import content from '../data/content.json';
+import parse from 'html-react-parser';
 
 const Maten = () => {
 
@@ -14,65 +15,27 @@ const Maten = () => {
           <div className="text-center">
             <h1>{content.maten[0].title}</h1>
 
-            <Fragment>
-              { content.maten[0].paragraphs.map((item) =>
-                  <p>{item.p}</p>
-              )}
-            </Fragment>
+            {parse(content.maten[0].content)}
 
             <Fragment>
               <div className="col-12 col-md-8 offset-md-2 pb-4">
                 <table border="1" cellspacing="2" cellpadding="2">
-                  <thead>
-                    <tr>
-                    { content.maten[0].table.map((item) =>
-                        <th><strong>{item.th}</strong></th>
-                    )}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      { content.maten[0].table.map((item) =>
-                          <td>{item.td1}</td>
-                      )}
-                    </tr>
-                    <tr>
-                      { content.maten[0].table.map((item) =>
-                          <td>{item.td2}</td>
-                      )}
-                    </tr>
-                    <tr>
-                      { content.maten[0].table.map((item) =>
-                          <td>{item.td3}</td>
-                      )}
-                    </tr>
-                    <tr>
-                      { content.maten[0].table.map((item) =>
-                          <td>{item.td4}</td>
-                      )}
-                    </tr>
-                    <tr>
-                      { content.maten[0].table.map((item) =>
-                          <td>{item.td5}</td>
-                      )}
-                    </tr>
-                  </tbody>
+
+                  {parse(content.maten[0].table)}
+
                 </table>
               </div>
             </Fragment>
           </div>
+        </div>
 
-          <div className="container mb-5">
-            <img className="col-4" alt="" src={content.maten[0].img}></img>
-            <ol className="col-8 float-right mt-5 pl-5">
-              { content.maten[0].numbers.map((item) =>
-                  <li>
-                    <p>{item.p}</p>
-                  </li>
-              )}
+        <div className="container mb-md-5">
+          <div className="row">
+            <img className="col-12 col-md-4" alt="" src={content.maten[0].img}></img>
+            <ol className="col-10 offset-2 col-md-5 offset-md-1 mt-md-5 pl-5">
+              {parse(content.maten[0].list)}
             </ol>
           </div>
-
         </div>
 
       </div>

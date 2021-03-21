@@ -1,6 +1,7 @@
 import React, {useEffect, useState, Fragment, Suspense} from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect, useHistory, useLocation } from 'react-router-dom';
 import Header from './statics/inc/Header';
+import Footer from './statics/inc/Footer';
 import Home from './statics/Home';
 import Les from './statics/Les';
 import Product from './statics/Product';
@@ -24,6 +25,7 @@ const App = () =>{
             <Route path={"/maten"} component={Maten} />
           </Switch>
         </div>
+        <Footer />
         </Fragment>
     </div>
   );

@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import content from '../data/content.json';
 import products from '../data/products.json';
 import ProductCard from './inc/ProductCard';
+import parse from 'html-react-parser';
 
 const Product = () => {
 
@@ -16,11 +17,7 @@ const Product = () => {
           <div className="col-12 col-md-8 offset-md-2 text-center">
             <h1>{content.producten[0].title}</h1>
 
-            <Fragment>
-              { content.producten[0].paragraphs.map((item) =>
-                  <p>{item.p}</p>
-              )}
-            </Fragment>
+            {parse(content.producten[0].content)}
 
           </div>
         </div>

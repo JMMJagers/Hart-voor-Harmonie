@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import content from '../data/content.json';
+import parse from 'html-react-parser';
 
 const Home = () => {
 
@@ -15,11 +16,7 @@ const Home = () => {
           <div className="col-12 col-md-8 offset-md-2 text-center">
             <h1>{content.home[0].title}</h1>
 
-            <Fragment>
-              { content.home[0].paragraphs.map((item) =>
-                  <p>{item.p}</p>
-              )}
-            </Fragment>
+            {parse(content.home[0].content)}
 
             <figure className="wp-block-image size-large text-center">
               <a href="http://www.hartvoorharmonie.nl">
