@@ -1,0 +1,13 @@
+.footer {
+  text-align: center;
+  .footer__social {
+    a {
+      text-decoration: none;
+      margin-right: 20px;
+      font-size: 2rem;
+      i {
+        color: $caramel;
+      }
+    }
+  }
+}
